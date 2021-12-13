@@ -1,1 +1,86 @@
 
+@media only screen and (max-width:320px){
+
+    .topContainer{
+        width: 100%;
+    }
+
+    .tc1, .tc2{
+        background-color: #FFE338;
+        height: 12vh;
+        margin: .7rem;
+    }
+
+    .midContainer{
+        height: 33vh;
+        background-color: crimson;
+        margin: .7rem;
+    }
+
+    .lc1, .lc2, .lc3{
+        background-color: rgb(62, 62, 248);
+        height: 12vh;
+        margin: .7rem;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:768px){
+
+    .topContainer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .tc1, .tc2{
+        width: 50%;
+        height: 23vh;
+        background-color: #FFE338;
+        margin: .7rem;
+    }
+
+    .midContainer{
+        background-color: crimson;
+        height: 33vh;
+        margin: .7rem;
+    }
+    
+    .lc1, .lc2, .lc3{
+        background-color: rgb(62, 62, 248);
+        height: 12vh;
+        margin: .7rem;
+    }
+}
+
+@media only screen and (min-width:769px){
+    .topContainer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .tc1, .tc2{
+        width: 50%;
+        height: 31vh;
+        background-color: #FFE338;
+        margin: .7rem;
+    }
+
+    .midContainer{
+        background-color: crimson;
+        height: 31vh;
+        margin: .7rem;
+    }
+
+    .lowerContainer{
+        display: flex;
+    }
+
+    .lc1, .lc2, .lc3{
+        background-color: rgb(62, 62, 248);
+        height: 31vh;
+        margin: .7rem;
+        width: 33%;
+    }
+}
