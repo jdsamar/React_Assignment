@@ -11,12 +11,51 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+
+    </div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+    var myReactContainer1 = React.createElement(
+      "div",
+      {className:"topContainer"},
+      React.createElement(
+        "div",
+        {className:"tc1"}
+      ),
+      React.createElement(
+        "div",
+        {className:"tc2"}
+      )
+    )
 
-</script>
+    var myReactContainer2 = React.createElement(
+      "div",
+      {className:"midContainer"}
+    )
+
+    var myReactContainer3 = React.createElement(
+      "div",
+      {className:"lowerContainer"},
+      React.createElement(
+        "div",
+        {className: "lc1"}
+      ),
+      React.createElement(
+        "div",
+        {className:"lc2"}
+      ),
+      React.createElement(
+        "div",
+        {className:"lc3"}
+      )
+    )
+
+    var container = React.createElement("div",{className:"container"},myReactContainer1,myReactContainer2,myReactContainer3)
+
+    ReactDOM.render(container,document.getElementById('root'));
+
+    </script>
 <!--
      Note: this page is a great way to try React but it's not suitable for production.
      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
