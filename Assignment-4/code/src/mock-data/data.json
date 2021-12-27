@@ -1,0 +1,28 @@
+{
+    "user":
+            [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage": "https://cdn.pixabay.com/photo/2017/10/19/08/02/fuji-2866786_960_720.jpg",
+            "date": 46464464447
+            },
+
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Sample Description",
+            "PostImage": "https://cdn.pixabay.com/photo/2017/10/19/08/01/fuji-2866782_960_720.jpg",
+            "date": 45454544643
+            },
+
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Sample Description for Post",
+            "PostImage": "https://cdn.pixabay.com/photo/2017/04/21/13/41/a-2248734_960_720.jpg",
+            "date": 58464646898
+            }
+            ]
+}
