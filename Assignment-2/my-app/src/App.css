@@ -1,0 +1,31 @@
+.App {
+  display: block;
+  margin: 100px auto;
+  width: 8rem
+}
+
+
+
+.App-logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.header{
+  color:rgb(58, 180, 255);
+  font-weight: 700;
+}
+
+.small{
+  font-size: 11px;
+  color: rgba(128, 128, 128, 0.459);
+  font-weight: 700;
+  line-height: 1px;
+  margin-top: 50px;
+}
+
+.big{
+  font-weight: 700;
+  font-size: 18px;
+}
